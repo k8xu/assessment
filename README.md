@@ -1,12 +1,12 @@
 # Research Problem
 
-Robotic manipulation tasks such as cooking a meal or cleaning a room require robots to grasp, move, and place objects. These tasks involve object interactions and physical understanding. For example, the notion of object stability is important if a robot is tidying a room and stacking objects on top of eachother. It must arrange the objects so that they don't fall. Robot understanding of other physical concepts such as friction and modes of interaction are important, but for this assignment we will focus on stability. The objective of this assignment is to familiarize you with a simple notion of object stability and to visualize solutions to finding stable arrangements of objects in a simulator.
+Robotic manipulation tasks require robots to reason about how to use their end effectors, or hands, to grasp and move objects around the world. I am interested in tasks that require some physical understanding of the world. This includes tasks like balancing objects in specific arrangements, moving constrained mechanisms such as doors, and/or tool use problems. In the example of stacking objects, the physical understanding of an object’s center of mass (COM) is important so that the objects don't fall. Other physical concepts such as friction are important, but for this assignment we will focus on COM and stability. The objective of this assignment is to familiarize you with a simple notion of object stability and to visualize solutions to finding stable arrangements of objects in a simulator.
 
 If any part of this problem interests you, try out the assignment below. Please dedicate at least 8 hours to it, and turn in what you have completed in that time. I encourage you to reach out to me at carism@mit.edu if you have any questions!
 
 ## Course Prerequisites
 
-Students applying and completing this assignment should have completed course 6.006 and 6.009. If you feel that you are a good fit but have not completed these courses please email me and we can discuss.
+Students applying and completing this assignment should have completed courses 6.006 and 6.009. If you feel that you are a good fit but have not completed these courses please email me and we can discuss.
 
 ## Directions
 
