@@ -2,20 +2,20 @@
 <robot  name="UNNAMED_0" >
  <link  name="obj_a" >
   <inertial >
-   <origin  rpy="0 0 0"  xyz="50.0 100.0 0.0" />
-   <mass  value="100.0" />
-   <inertia  iyy="0.001"  ixz="0"  izz="0.001"  ixy="0"  iyz="0"  ixx="0.001" />
+   <origin  rpy="0 0 0"  xyz="5.0 10.0 0.5" />
+   <mass  value="10.0" />
+   <inertia  izz="0.001"  ixz="0"  iyz="0"  ixy="0"  ixx="0.001"  iyy="0.001" />
   </inertial>
   <collision >
    <origin  rpy="0 0 0"  xyz="0 0 0" />
    <geometry >
-    <box  size="10.0 10.0 10.0" />
+    <box  size="1.0 1.0 1.0" />
    </geometry>
   </collision>
   <visual >
    <origin  rpy="0 0 0"  xyz="0 0 0" />
    <geometry >
-    <box  size="10.0 10.0 10.0" />
+    <box  size="1.0 1.0 1.0" />
    </geometry>
    <material  name="color" >
     <color  rgba="1.0 0.8 0.6 1.0" />
